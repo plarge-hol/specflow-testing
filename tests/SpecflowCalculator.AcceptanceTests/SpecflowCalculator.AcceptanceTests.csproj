@@ -7,6 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="AssemblyHooks\**" />
+    <EmbeddedResource Remove="AssemblyHooks\**" />
+    <None Remove="AssemblyHooks\**" />
+    <SpecFlowFeatureFiles Remove="AssemblyHooks\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="AssemblyHooks\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="Features\Calculator.feature.cs" />
   </ItemGroup>
 
@@ -32,10 +40,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\sources\SpecflowCalculator\SpecflowCalculator.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="AssemblyHooks\" />
   </ItemGroup>
 
   <ItemGroup>
