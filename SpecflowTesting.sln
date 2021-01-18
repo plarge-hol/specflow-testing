@@ -17,11 +17,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Solution Items", ".Solution Items", "{936D658A-C9CF-453D-8CDB-712F7EE3931B}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		SpecflowTesting.sln.DotSettings = SpecflowTesting.sln.DotSettings
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecflowCalculator.Specs", "tests\SpecflowCalculator.Specs\SpecflowCalculator.Specs.csproj", "{DE06C246-D696-404D-809A-35C1776BE3FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecflowCalculator.AcceptanceTests", "tests\SpecflowCalculator.AcceptanceTests\SpecflowCalculator.AcceptanceTests.csproj", "{976C47D0-D0E7-4543-826A-D5E073B2ED65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecflowCalculator.AcceptanceTests", "tests\SpecflowCalculator.AcceptanceTests\SpecflowCalculator.AcceptanceTests.csproj", "{976C47D0-D0E7-4543-826A-D5E073B2ED65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
