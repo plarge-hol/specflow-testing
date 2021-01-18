@@ -19,7 +19,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Solution Items", ".Solutio
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecflowCalculator.Specs", "tests\SpecflowCalculator.Specs\SpecflowCalculator.Specs.csproj", "{DE06C246-D696-404D-809A-35C1776BE3FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecflowCalculator.Specs", "tests\SpecflowCalculator.Specs\SpecflowCalculator.Specs.csproj", "{DE06C246-D696-404D-809A-35C1776BE3FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecflowCalculator.AcceptanceTests", "tests\SpecflowCalculator.AcceptanceTests\SpecflowCalculator.AcceptanceTests.csproj", "{976C47D0-D0E7-4543-826A-D5E073B2ED65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{DE06C246-D696-404D-809A-35C1776BE3FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE06C246-D696-404D-809A-35C1776BE3FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE06C246-D696-404D-809A-35C1776BE3FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{976C47D0-D0E7-4543-826A-D5E073B2ED65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{976C47D0-D0E7-4543-826A-D5E073B2ED65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{976C47D0-D0E7-4543-826A-D5E073B2ED65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{976C47D0-D0E7-4543-826A-D5E073B2ED65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +48,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B93B7C7B-938E-4EB6-BC85-22692C7678B2} = {D01FB39E-DB89-4F02-A485-DA66F28BB14F}
 		{DE06C246-D696-404D-809A-35C1776BE3FC} = {C74BA33E-D0D2-4756-9A5A-6FE45EA55B82}
+		{976C47D0-D0E7-4543-826A-D5E073B2ED65} = {C74BA33E-D0D2-4756-9A5A-6FE45EA55B82}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6B45B558-B1D7-4C8C-937A-8DD8563D8851}
